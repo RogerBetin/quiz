@@ -1,0 +1,37 @@
+.h1-1 {
+    position: relative;
+    text-align: center;
+}
+.botoes1 {
+    position: relative;
+    top: 24px;
+    left: 40%;
+    width: 20%;
+    background-color: aqua;
+    text-align: center;
+}
+.botoes2 {
+    position: relative;
+    top: 26px;
+    left: 40%;
+    width: 20%;
+    background-color: aqua;
+    text-align: center;
+}
+.botoes3 {
+    position: relative;
+    top: 28px;
+    left: 40%;
+    width: 20%;
+    background-color: aqua;
+    text-align: center;
+}
+.botoes4 {
+    position: relative;
+    top: 30px;
+    left: 40%;
+    width: 20%;
+    background-color: aqua;
+    text-align: center;
+}
+

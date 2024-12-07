@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h1 id="elemento1" class="h1-1">1. Quanto é 4<sup>2</sup>?</h1>
+    <div id="elemento2" class="botoes1">12</div>
+    <div id="elemento3" class="botoes2">16</div>
+    <div id="elemento4" class="botoes3">43</div>
+    <div id="elemento5" class="botoes4">8</div>
+    <script src="javascript.js"></script>
+    <script>
+        var botao1 = document.getElementById('elemento2') // botao 1
+        var botao2 = document.getElementById('elemento3') // botao 2
+        var botao3 = document.getElementById('elemento4') // botao 3
+        var botao4 = document.getElementById('elemento5') // botao 4
+        
+        botao1.addEventListener('mouseenter', function() {
+            botao1.style.background = 'white'
+        })
+        botao2.addEventListener('mouseenter', function() {
+            botao2.style.background = 'white'
+        })
+        botao3.addEventListener('mouseenter', function() {
+            botao3.style.background = 'white'
+        })
+        botao4.addEventListener('mouseenter', function() {
+            botao4.style.background = 'white'
+        })
+
+        botao1.addEventListener('mouseout', function() {
+            botao1.style.background = 'aqua'
+        })
+        botao2.addEventListener('mouseout', function() {
+            botao2.style.background = 'aqua'
+        })
+        botao3.addEventListener('mouseout', function() {
+            botao3.style.background = 'aqua'
+        })
+        botao4.addEventListener('mouseout', function() {
+            botao4.style.background = 'aqua'
+        })
+    </script>
+</body>
+</html>
