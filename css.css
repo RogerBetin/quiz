@@ -1,6 +1,94 @@
+button {
+    position: relative;
+    left: 625px;
+    top: -10px;
+}
+#div1 {
+    position: fixed;
+    background-color: aqua;
+    height: 915px;
+    width: 400px;
+    top: -5px;
+    left: -10px;
+}
+#div2 {
+    position: fixed;
+    background-color: aqua;
+    height: 915px;
+    width: 400px;
+    top: -5px;
+    right: -10px;
+}
+
+#div3 {
+    position: fixed;
+    background-color: blue;
+    height: 225px;
+    width: 225px;
+    top: 15px;
+    right: 15px;
+    border-radius: 50%;
+}
+
+#div4 {
+    position: fixed;
+    background-color: blue;
+    height: 225px;
+    width: 225px;
+    top: 295px;
+    right: 150px;
+    border-radius: 50%;
+}
+
+#div5 {
+    position: fixed;
+    background-color: blue;
+    height: 225px;
+    width: 225px;
+    top: 645px;
+    right: 50px;
+    border-radius: 50%;
+}
+
+#div6 {
+    position: fixed;
+    background-color: blue;
+    height: 225px;
+    width: 225px;
+    top: 15px;
+    left: 15px;
+    border-radius: 50%;
+}
+
+#div7 {
+    position: fixed;
+    background-color: blue;
+    height: 225px;
+    width: 225px;
+    top: 295px;
+    left: 150px;
+    border-radius: 50%;
+}
+
+#div8 {
+    position: fixed;
+    background-color: blue;
+    height: 225px;
+    width: 225px;
+    top: 645px;
+    left: 50px;
+    border-radius: 50%;
+}
+
 .h1-1 {
+    text-align: center;
+    z-index: 3;
+}
+
+.h1-2 {
     position: relative;
     text-align: center;
+    z-index: 3;
 }
 .botoes1 {
     position: relative;
@@ -34,4 +122,3 @@
     background-color: aqua;
     text-align: center;
 }
-

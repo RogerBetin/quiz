@@ -129,4 +129,52 @@ function respostaCerta() {
         botao3.addEventListener('click', respostaCerta)
         botao4.addEventListener('click', respostaErrada)
     }
+    else if (pergunta == 9) {
+        console.log(pergunta)
+        enunciado.innerText = `Qual o número da pergunta?`
+        botao1.innerText = '10'
+        botao2.innerText = '9'
+        botao3.innerText = '8'
+        botao4.innerText = '12'
+        botao1.removeEventListener('click', respostaErrada)
+        botao2.removeEventListener('click', respostaErrada)
+        botao3.removeEventListener('click', respostaCerta)
+        botao4.removeEventListener('click', respostaErrada)
+        botao1.addEventListener('click', respostaErrada)
+        botao2.addEventListener('click', respostaCerta)
+        botao3.addEventListener('click', respostaErrada)
+        botao4.addEventListener('click', respostaErrada)
+    }
+    else if (pergunta == 10) {
+        console.log(pergunta)
+        enunciado.innerText = `${pergunta}. Em um avião, haviam quatro passageiros romanos e um americano. Qual o nome da aeromoça?`
+        botao1.innerText = 'Ivone'
+        botao2.innerText = 'Carlos'
+        botao3.innerText = 'Jéssica'
+        botao4.innerText = 'Maria'
+        botao1.removeEventListener('click', respostaErrada)
+        botao2.removeEventListener('click', respostaCerta)
+        botao3.removeEventListener('click', respostaErrada)
+        botao4.removeEventListener('click', respostaErrada)
+        botao1.addEventListener('click', respostaCerta)
+        botao2.addEventListener('click', respostaErrada)
+        botao3.addEventListener('click', respostaErrada)
+        botao4.addEventListener('click', respostaErrada)
+    }
+    else if (pergunta == 11) {
+        console.log(pergunta)
+        enunciado.innerText = `${pergunta}. Quem marcou o gol da vitória da França na Copa do Mundo de 1988?`
+        botao1.innerText = 'Mbappé'
+        botao2.innerText = 'Christian Perez'
+        botao3.innerText = 'Rafael Varane'
+        botao4.innerText = 'Ninguém'
+        botao1.removeEventListener('click', respostaCerta)
+        botao2.removeEventListener('click', respostaErrada)
+        botao3.removeEventListener('click', respostaErrada)
+        botao4.removeEventListener('click', respostaErrada)
+        botao1.addEventListener('click', respostaErrada)
+        botao2.addEventListener('click', respostaErrada)
+        botao3.addEventListener('click', respostaErrada)
+        botao4.addEventListener('click', respostaCerta)
+    }
 }
